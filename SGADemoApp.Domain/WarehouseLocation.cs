@@ -40,9 +40,12 @@
 
         /// <summary>
         /// Posición de profundidad
-        /// ¿Realmente es necesaria?
-        /// Quizás se pueda calcular a partir de la posición con la combinación de PositionZ y PositionY podría valer?
         /// </summary>
         public int PositionW { get; set; }
+
+        /// <summary>
+        /// Límite de artículos que puede contener la ubicación
+        /// </summary>
+        public int ItemsLimit { get; set; } = 1;
     }
 }
